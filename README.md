@@ -1,2 +1,2 @@
 # Functional-Verification-of-I2C-Protocol
-This project deals with the verification of I2C Multiple Bus Controller. A class-based test bench architecture is built using System Verilog.
+This project deals with the verification of I2C Multiple Bus Controller. A class-based test bench architecture is built using System Verilog. The Design Under Test (DUT) is an open source RTL code of the I2C multiple bus controller which is based on the I2C protocol. The files related to this project are mainly split into several packages which includes the verification packages and the project benches and/or test packages. Further the verification package is split into various interface packages that are required for this project. 
