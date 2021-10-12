@@ -1,0 +1,11 @@
+rm -rf *.ucdb
+make run_cli GEN_TYPE=i2cmb_generator_reset_test
+make run_cli GEN_TYPE=i2cmb_generator_register_test
+make run_cli GEN_TYPE=i2cmb_generator_register_access
+make run_cli GEN_TYPE=i2cmb_generator_register_aliasing
+make run_cli GEN_TYPE=i2cmb_generator_dut_test
+make run_cli GEN_TYPE=i2cmb_generator_direct
+make run_cli GEN_TYPE=i2cmb_generator_random_read
+make run_cli GEN_TYPE=i2cmb_generator_random_write
+make merge_coverage
+make view_coverage
